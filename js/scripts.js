@@ -1,9 +1,9 @@
 var answers = ["navigator","the(</scripts>)","2name","object","if"];
-var pointPerCorrect = 20;
+var pointPerCorrect = 10;
 
 
 function percentage(score) {
-return "Your score is " + parseInt((score / 100) * 100) + "%";
+return "Your score is " + parseInt((score / 50) * 100) + "%";
 }
 
 $(document).ready(function(){
@@ -49,6 +49,7 @@ $(document).ready(function(){
         $('#questionsIncomplete').text('');
         $('#result').text(percentage(score));
 }
+
           event.preventDefault();
  });
 });
