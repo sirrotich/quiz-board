@@ -1,4 +1,4 @@
-var answers = ["infinity","firstName","vowels"];
+var answers = ["navigator","the(</scripts>)","2name","object","if"];
 var pointPerCorrect = 20;
 
 
