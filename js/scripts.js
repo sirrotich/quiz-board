@@ -49,6 +49,7 @@ $(document).ready(function(){
         $('#questionsIncomplete').text('');
         $('#result').text(percentage(score));
 }
+
           event.preventDefault();
  });
 });
