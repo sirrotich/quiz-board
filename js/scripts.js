@@ -7,7 +7,7 @@ return "Your score is " + parseInt((score / 50) * 100) + "%";
 }
 
 $(document).ready(function(){
-   $("#questions").submit(function (event) {
+   $('#questions').submit(function (event) {
 
 
       $('#result').text('');
