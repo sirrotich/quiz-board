@@ -1,5 +1,5 @@
-var answers = ["navigator","the(</scripts>)","2name","object","if"];
-var pointPerCorrect = 10;
+var answers = ["navigator","</scripts>","2name","object","if"];
+var pointPerCorrect = 20;
 
 
 function percentage(score) {
@@ -21,7 +21,7 @@ $(document).ready(function(){
       if (answerOne === undefined || answerTwo === undefined || answerThree === undefined || answerFour === undefined || answerFive === undefined) {
   $('#questionsIncomplete').text('Please Complete questions Before Submitting');
   $('#questionsIncomplete').fadeOut(10000);
-  
+
 } else {
          if (answerOne === answers[0]) {
     score += pointPerCorrect;
@@ -37,6 +37,9 @@ $(document).ready(function(){
   }
          if (answerFive === answers[4]) {
     score += pointPerCorrect;
+  }
+         if (percentage >= 80) {
+    alert("congratulations")
   }
 
         $("input[type=radio][name=quiz1]:checked").prop('checked', false);
