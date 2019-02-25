@@ -14,24 +14,24 @@
   font-style: oblique;
 }
 body {
-  background-image: url(../images/image1.jpg);
+  background-image: url(../images/image.gif);
   background-size: cover;
   text-align: center;
 }
 #questions {
-  color: white;
+  color: black;
 }
 #questionTwo {
-  color: white;
+  color: black;
 }
 #questionThree {
-  color: white;
+  color: black;
 }
 #questionFour {
-  color: white;
+  color: black;
 }
 #questionFive {
-  color: white;
+  color: black;
 }
 .submit {
   color: white;
