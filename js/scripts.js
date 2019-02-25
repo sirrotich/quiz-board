@@ -21,6 +21,7 @@ $(document).ready(function(){
       if (answerOne === undefined || answerTwo === undefined || answerThree === undefined || answerFour === undefined || answerFive === undefined) {
   $('#questionsIncomplete').text('Please Complete questions Before Submitting');
   $('#questionsIncomplete').fadeOut(10000);
+  
 } else {
          if (answerOne === answers[0]) {
     score += pointPerCorrect;
@@ -28,13 +29,13 @@ $(document).ready(function(){
          if (answerTwo === answers[1]) {
     score += pointPerCorrect;
   }
-         if (answerThree === answers[3]) {
+         if (answerThree === answers[2]) {
     score += pointPerCorrect;
   }
-         if (answerFour === answers[4]) {
+         if (answerFour === answers[3]) {
     score += pointPerCorrect;
   }
-         if (answerFive === answers[5]) {
+         if (answerFive === answers[4]) {
     score += pointPerCorrect;
   }
 
