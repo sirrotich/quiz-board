@@ -11,6 +11,7 @@
 .submit {
   color: black;
   background-color: black;
+  font-style: italic;
 }
 body {
   background-image: url(../images/image3.gif);
